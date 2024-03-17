@@ -2,6 +2,7 @@ import React from "react";
 import DrawerMobileNavigation from "./drawer";
 import "./index.css";
 import iconB from "../../assets/letter-b.svg"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -14,11 +15,11 @@ const Navbar = () => {
       </div>
       <div className="nav-list">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Experience</li>
-          <li>Contact</li>
+          <Link to="/home"><li>Home</li></Link>
+          <li><Link to = "/about">About</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/experience">Experience</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
     </nav>

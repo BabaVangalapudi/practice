@@ -11,6 +11,9 @@ body{
   height: 40px;
   width: 40px;
 }
+Link{
+  text-decoration: none;
+}
 ul {
   display: flex;
   font-size: 20px;
