@@ -1,8 +1,9 @@
 import React from 'react'
+import '../HomePage/index.css'
 
 const About = () => {
   return (
-    <div>
+    <div className='home-container'>
       <h1>About</h1>
     </div>
   )

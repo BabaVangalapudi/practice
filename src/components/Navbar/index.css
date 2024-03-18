@@ -6,14 +6,25 @@
 }
 body{
     width: 100vw;
+    min-height: 100vh;
+    max-height: 100%;
 }
 .b-icon {
   height: 40px;
   width: 40px;
 }
-Link{
+.drawer-list{
   text-decoration: none;
+  color: #fff !important;
+
+
 }
+.drawer-list:hover{
+  text-decoration: underline;
+  color: #f22d68 !important;
+  border-radius: 10px;
+}
+
 ul {
   display: flex;
   font-size: 20px;
@@ -24,6 +35,7 @@ ul li {
   list-style: none;
   position: relative;
   cursor: pointer;
+  color: #f22d68;
 }
 .navbar {
   display: flex;
@@ -46,6 +58,9 @@ li::after {
   transition: transform 0.5s ease;
   border-radius: 25%;
 
+}
+.list-style{
+  text-decoration: none;
 }
 li:hover::after {
   transform: scaleX(1);

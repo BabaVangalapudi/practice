@@ -5,6 +5,7 @@ import Contact from "./components/Main/Contact";
 import Experience from "./components/Main/Experience";
 import Projects from "./components/Main/ProjectsPage";
 import HomePage from "./components/Main/HomePage";
+import './App.css'
 
 function App() {
   return (

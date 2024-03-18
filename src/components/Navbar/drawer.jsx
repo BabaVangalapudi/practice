@@ -4,6 +4,7 @@ import Drawer from '@mui/joy/Drawer';
 import List from '@mui/joy/List';
 import ListItemButton from '@mui/joy/ListItemButton';
 import Menu from '@mui/icons-material/Menu';
+import { Link } from "react-router-dom";
 
 export default function DrawerMobileNavigation() {
   const [open, setOpen] = React.useState(false);
@@ -26,11 +27,11 @@ export default function DrawerMobileNavigation() {
             fontWeight:'600'
           }}
         >
-          <ListItemButton>Home</ListItemButton>
-          <ListItemButton>About</ListItemButton>
-          <ListItemButton>Projects</ListItemButton>
-          <ListItemButton>Experience</ListItemButton>
-          <ListItemButton>Contact</ListItemButton>
+          <ListItemButton><Link className='drawer-list' to="/">Home</Link></ListItemButton>
+          <ListItemButton><Link className='drawer-list' to="/about">About</Link></ListItemButton>
+          <ListItemButton><Link className='drawer-list' to="/projects">Projects</Link></ListItemButton>
+          <ListItemButton><Link className='drawer-list' to="/experience">Experience</Link></ListItemButton>
+          <ListItemButton><Link className='drawer-list' to="/contact">Contact</Link></ListItemButton>
         </List>
       </Drawer>
     </React.Fragment>
