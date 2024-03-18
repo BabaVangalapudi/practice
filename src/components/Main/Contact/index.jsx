@@ -1,8 +1,10 @@
 import React from 'react'
+import '../HomePage/index.css'
+
 
 const Contact = () => {
   return (
-    <div>
+    <div className='home-container'>
       <h1>Contact</h1>
     </div>
   )

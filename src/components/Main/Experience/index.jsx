@@ -1,8 +1,10 @@
 import React from 'react'
+import '../HomePage/index.css'
+
 
 const Experience = () => {
   return (
-    <div>
+    <div className='home-container'>
       <h1>Experience</h1>
     </div>
   )
