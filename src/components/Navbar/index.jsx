@@ -20,7 +20,7 @@ const Navbar = () => {
           <li><Link to="/projects" className="list-style">Projects</Link></li>
           <li><Link to="/experience" className="list-style">Experience</Link></li>
           <li><Link to="/contact" className="list-style">Contact</Link></li> */}
-           <li><NavLink exact to="/" activeClassName="active" className="list-style">Home</NavLink></li>
+          <li><NavLink exact to="/" activeClassName="active" className="list-style">Home</NavLink></li>
           <li><NavLink to="/about" activeClassName="active" className="list-style">About</NavLink></li>
           <li><NavLink to="/projects" activeClassName="active" className="list-style">Projects</NavLink></li>
           <li><NavLink to="/experience" activeClassName="active" className="list-style">Experience</NavLink></li>
