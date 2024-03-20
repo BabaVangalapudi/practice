@@ -1,10 +1,11 @@
 import React from 'react'
 import './index.css'
+import heroImage from '../../../assets/heroImage.svg'
 
 const HomePage = () => {
   return (
     <div className='home-container'>
-      <h1>Home</h1>
+      <img src={heroImage} alt="" />
     </div>
   )
 }
