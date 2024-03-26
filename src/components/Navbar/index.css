@@ -34,7 +34,7 @@ ul {
 ul li {
   list-style: none;
   position: relative;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .active{
   color: #f22d68;

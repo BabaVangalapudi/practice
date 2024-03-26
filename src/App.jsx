@@ -5,6 +5,7 @@ import Contact from "./components/Main/Contact";
 import Experience from "./components/Main/Experience";
 import Projects from "./components/Main/ProjectsPage";
 import HomePage from "./components/Main/HomePage";
+import CustomCursor from "./components/CustomCursor"
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <BrowserRouter>
       <div>
+        <CustomCursor/>
         <Navbar/>
       <Routes>
           <Route path="/" index element={<HomePage />} />
